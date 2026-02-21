@@ -1,0 +1,21 @@
+print("Welcome to the Love Calculator!") #true love
+name1 = input("what is your name? \n")
+name2 = input("what is their name? \n")
+lower_case_name1 = name1.lower()
+lower_case_name2 = name2.lower()
+lower_case_name = lower_case_name1 + lower_case_name2
+print(lower_case_name)
+# print(lower_case_name.count("t"))
+# print(lower_case_name.count("r"))
+# print(lower_case_name.count("u"))
+# print(lower_case_name.count("e"))
+total1 = lower_case_name.count("t") + lower_case_name.count("r") + lower_case_name.count("u") + lower_case_name.count("e")
+# print(total1)
+# print(lower_case_name.count("l"))
+# print(lower_case_name.count("o"))
+# print(lower_case_name.count("v"))
+# print(lower_case_name.count("e"))
+total2 = lower_case_name.count("l") + lower_case_name.count("o") + lower_case_name.count("v") + lower_case_name.count("e")
+# print(total2)
+total = total1 + total2
+print(f"your love score is {total}")
